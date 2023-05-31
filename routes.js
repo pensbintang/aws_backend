@@ -10,14 +10,14 @@ const routes = [
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-            return 'Homepage';
+            return 'Homepage Edit Localhost';
         },
     },
      {
         method: 'GET',
         path: '/about',
         handler: (request, h) => {
-            return 'About Page';
+            return 'About Page Edit Localhost';
         },
     },
 ];
